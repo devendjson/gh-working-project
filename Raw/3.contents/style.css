@@ -1,0 +1,281 @@
+/* -----------------Contents Css -----------------------*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 199px;
+
+  position: static;
+  width: 1579px;
+  height: 930.52px;
+  left: 0px;
+  top: 3008px;
+
+  /* dark background */
+
+  background: #181818;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 100px 0px;
+}
+.contents {
+  width: 100%;
+  height: 100%;
+}
+
+.contents-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 985px;
+  height: 624.52px;
+  left: 0px;
+  top: 206px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 44px 0px;
+}
+
+#title-contents-center {
+  position: static;
+  left: 4.08%;
+  right: 4.08%;
+  top: 12.2%;
+  bottom: 12.2%;
+
+  /* Second Headline */
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px;
+  /* identical to box height, or 119% */
+
+  letter-spacing: 0.2px;
+
+  /* light text */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+#para-contents-center {
+  position: static;
+  left: 1.69%;
+  right: 1.69%;
+  top: 12.5%;
+  bottom: 12.5%;
+
+  /* Sub Heading */
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* light text */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.contents-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+
+  position: static;
+  width: 476px;
+  height: 624.52px;
+  left: 0px;
+  top: 0px;
+
+  /* light background */
+
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  /* shadow */
+
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 33px;
+}
+
+.btn-contents-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 36px;
+
+  position: static;
+  width: 157px;
+  height: 52px;
+  left: 159.5px;
+  top: 249px;
+
+  /* primary */
+
+  background: #4452fe;
+  /* shadow */
+
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 57px 0px;
+}
+
+.img-contents-left {
+  position: static;
+  width: 405.12px;
+  height: 226.52px;
+  left: 35.44px;
+  top: 358px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 57px 0px;
+}
+
+.contents-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 591px;
+  height: 162px;
+  left: 197px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 44px 0px;
+}
+
+.contents-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+
+  position: static;
+  width: 476px;
+  height: 620px;
+  left: 509px;
+  top: 2.26px;
+
+  /* light background */
+
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  /* shadow */
+
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 33px;
+}
+
+.btn-contents-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 36px;
+
+  position: static;
+  width: 190px;
+  height: 52px;
+  left: 143px;
+  top: 222px;
+
+  /* primary */
+
+  background: #4452fe;
+  /* shadow */
+
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+.img-contents-right {
+  position: static;
+  width: 379px;
+  height: 276px;
+  left: 48.5px;
+  top: 304px;
+
+  background: url(.jpg);
+  /* shadow */
+
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  border-radius: 14px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 30px 0px;
+}

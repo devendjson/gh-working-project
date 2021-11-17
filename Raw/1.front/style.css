@@ -1,0 +1,390 @@
+.front {
+  /* Desktop HEADER 05 */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 1579px;
+  height: 1696px;
+  left: 0px;
+  top: 0px;
+
+  /* dark background */
+
+  background: #181818;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 100px 0px;
+}
+.navigation-bar {
+  /* navbar */
+
+  position: static;
+  width: 1097px;
+  height: 119px;
+  left: 241px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 35px 0px;
+}
+.front-logo {
+  /* logo dark */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+
+  position: absolute;
+  width: 206px;
+  height: 78px;
+  left: 30px;
+  top: calc(50% - 78px / 2 - 0.5px);
+}
+.front-one {
+  /* Text */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 9.08%;
+  bottom: 67.75%;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 35px 0px;
+}
+.front-title-div {
+  /* headline */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+
+  position: static;
+  width: 729px;
+  height: 196px;
+  left: 425px;
+  top: 50px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 17px 0px;
+}
+#front-title {
+  /* Work at the speed of thought */
+
+  position: static;
+  left: 1.37%;
+  right: 1.37%;
+  top: 5.1%;
+  bottom: 5.1%;
+
+  /* Headline */
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 88px;
+  /* or 110% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* light text */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+.front-para-div {
+  /* Sub Heading */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+
+  position: static;
+  width: 602px;
+  height: 80px;
+  left: 488.5px;
+  top: 263px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 17px 0px;
+}
+#front-para {
+  /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
+
+  position: static;
+  left: 1.66%;
+  right: 1.66%;
+  top: 12.5%;
+  bottom: 12.5%;
+
+  /* Sub Heading */
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* light text */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+.front-btn {
+  /* buttons */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 387px;
+  height: 65px;
+  left: 596px;
+  top: 582px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 35px 0px;
+}
+.try {
+  /* button */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 30px;
+
+  position: static;
+  width: 178px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+
+  /* primary */
+
+  background: #4452fe;
+  /* shadow */
+
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 35px;
+}
+#try-btn {
+  /* text */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+
+  position: static;
+  width: 118px;
+  height: 45px;
+  left: 30px;
+  top: 10px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.learnmore {
+  /* button */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 30px;
+
+  position: static;
+  width: 174px;
+  height: 65px;
+  right: 0px;
+  top: calc(50% - 65px / 2);
+
+  /* light text */
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  /* shadow */
+
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 35px;
+}
+#learnmore1 {
+  /* text */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+
+  position: static;
+  width: 114px;
+  height: 45px;
+  left: 30px;
+  top: 10px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.front-images {
+  /* screens */
+
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 40.21%;
+  bottom: 1.24%;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 35px 0px;
+}
+.gradient {
+  /* Gradient */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 66.27%;
+  bottom: 1.24%;
+
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
+}
+.header-images {
+  /* screens */
+
+  position: absolute;
+  width: 1552.02px;
+  height: 841px;
+  left: 13.49px;
+  top: 682px;
+}
+#front1 {
+  position: absolute;
+  width: 466.53px;
+  height: 429.98px;
+  left: calc(50% - 466.53px / 2 - 146.67px);
+  top: calc(50% - 429.98px / 2 + 92.31px);
+
+  background: url(.jpg);
+  transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0);
+}
+#front2 {
+  position: absolute;
+  width: 465.82px;
+  height: 429.98px;
+  left: calc(50% - 465.82px / 2 - 131.92px);
+  top: calc(50% - 429.98px / 2 + 76.72px);
+
+  background: url(.jpg);
+  transform: matrix(0.71, -0.54, 0.93, 0.71, 0, 0);
+}
+#front3 {
+  position: absolute;
+  width: 466.53px;
+  height: 451.48px;
+  left: calc(50% - 466.53px / 2 + 584px);
+  top: calc(50% - 451.48px / 2 + 76.47px);
+
+  background: url(.jpg);
+  transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0);
+}
