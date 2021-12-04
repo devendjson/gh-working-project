@@ -10,6 +10,7 @@
   
   body {
     background: #181818;
+   
   }
   h1,
   h2 {
@@ -398,6 +399,821 @@ font-family: 'Ubuntu', sans-serif;
     background-image: url(images/screens.png);
     background-size: 100% 100%;
   }
+
+  /* <!-- feature-section--------------------------- --> */
+  .feature-section {
+    display: flex;
+    justify-content: center;
+    ali
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 62px 50px;
+  
+    position: static;
+  
+    /* dark background */
+  
+    background: #181818;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 100px 0px;
+  }
+  .feature-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  
+    position: static;
+    width: 1479px;
+    height: 988px;
+    left: calc(50% - 1479px / 2);
+    top: 62px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+   
+  }
+  .feature-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  
+    position: static;
+    width: 602px;
+    height: 149px;
+    left: 438.5px;
+    top: 0px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 80px 0px;
+    
+  }
+  .feature-heading-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+  
+    position: static;
+    width: 251px;
+    height: 62px;
+    left: 175.5px;
+    top: 0px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 27px;
+   
+  }
+  
+  #feature-heading {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  
+    /* Second Headline */
+  
+    font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 62px;
+    /* identical to box height, or 119% */
+  
+    letter-spacing: 0.2px;
+  
+    /* light text */
+  
+    color: #ffffff;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .feature-para-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+  
+    position: static;
+    width: 602px;
+    height: 60px;
+    left: 0px;
+    top: 89px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 27px 0px;
+    
+  }
+  #feature-para {
+    position: static;
+    left: 1.66%;
+    right: 1.66%;
+    top: 0%;
+    bottom: 0%;
+  
+    /* Sub Heading */
+  
+    font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+  
+    text-align: center;
+    letter-spacing: 0.2px;
+  
+    /* light text */
+  
+    color: #ffffff;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .feature-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+  
+    position: static;
+    width: 1088px;
+    height: 759px;
+    left: 195.5px;
+    top: 229px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 80px 0px;
+  }
+  
+  .feature-bottom-left {
+    position: relative;
+    width: 752px;
+    height: 759px;
+    left: 0px;
+    top: 0px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 27px;
+    
+  }
+  
+  .feature-parent-div {
+    position: relative;
+    width: 696px;
+    height: 659px;
+    left: 28px;
+    top: 0px;
+  
+    background: url(images/features1.png);
+    /* shadow */
+  
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  }
+  
+  .feature-child-div {
+    position: relative;
+    width: 400px;
+    height: 276px;
+    left: 352px;
+    top: 483.5px;
+  
+    background: url(images/features2.png);
+    /* shadow */
+  
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  }
+  
+  .feature-bottom-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  
+    position: static;
+    width: 309px;
+    height: 651px;
+    left: 779px;
+    top: 54px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 27px;
+  }
+  
+  #feature-bottom-right-img {
+  }
+  
+/* <!--------------------- contents ------------------------> */
+.contents-section{
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+  padding: 50px 199px;
+  
+  position: static;
+  /* width: 1579px;
+  height: 930.52px; */
+  left: 0px;
+  top: 3008px;
+  
+  /* dark background */
+  
+  background: #181818;
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 100px 0px;
+}
+.contents-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  
+  position: static;
+  width: 985px;
+  height: 830.52px;
+  left: calc(50% - 985px/2);
+  top: 50px;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 35px 0px;
+}
+.contents-top{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  
+  position: static;
+  width: 591px;
+  height: 162px;
+  left: 197px;
+  top: 0px;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 44px 0px;
+}
+#contents-top-heading{
+  position: static;
+  left: 5.08%;
+  right: 4.08%;
+  top: 12.2%;
+  bottom: 12.2%;
+ padding-bottom: 2rem;
+ padding-left: 4.5rem;
+  /* Second Headline */
+  
+  font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px;
+  /* identical to box height, or 119% */
+  
+  letter-spacing: 0.2px;
+  
+  /* light text */
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+ 
+}
+#contents-top-para{
+  position: static;
+  left: 1.69%;
+  right: 1.69%;
+  top: 12.5%;
+  bottom: 12.5%;
+
+  /* Sub Heading */
+  
+  font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  
+  text-align: center;
+  letter-spacing: 0.2px;
+  
+  /* light text */
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 0px; */
+  margin-left: 5rem;
+}
+.contents-bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  position: static;
+  width: 985px;
+  height: 624.52px;
+  left: 0px;
+  top: 206px;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 44px 0px;
+}
+
+
+
+
+
+
+
+
+
+/* .contents---bottom------------------ */
+.contents-bottom-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 40px 0px; */
+
+  position: static;
+  width: 476px;
+  height: 624.52px;
+  left: 0px;
+  top: 0px;
+
+  /* light background */
+
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  /* shadow */
+
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 33px;
+}
+.contents-bottom-left-up {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 288px;
+  height: 152px;
+  left: 94px;
+  top: 40px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 57px 0px; */
+  
+}
+.contents-bottom-left-up-heading-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  position: static;
+  width: 70px;
+  height: 50px;
+  left: 109px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 20px;
+}
+#contents-bottom-left-up-heading {
+  position: static;
+  left: 14.29%;
+  right: 14.29%;
+  top: 20%;
+  bottom: 20%;
+
+  /* Title */
+
+  font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  /* first text */
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 10px; */
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+.contents-bottom-left-up-para-div {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 10px; */
+
+  position: static;
+  width: 288px;
+  height: 92px;
+  left: 0px;
+  top: 60px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  /* margin: 10px 0px; */
+  background: chartreuse; */
+}
+#contents-bottom-left-up-para {
+  /* position: static;
+  left: 3.47%;
+  right: 3.47%;
+  top: 10.87%;
+  bottom: 10.87%;
+
+  /* Paragraphe */
+
+  font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* second text */
+
+  color: #5c5c5c;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px; 
+}
+#contents-bottom-left-mid-btn {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  align-items: center;
+  padding: 20px 36px;
+
+  position: static;
+  width: 157px;
+  height: 52px;
+  left: 159.5px;
+  top: 249px;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 1rem;
+  cursor: pointer;
+
+  /* primary */
+
+  background: #4452fe;
+  /* shadow */
+
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 57px 0px;
+}
+.contents-bottom-left-down {
+
+  position: static;
+  width: 405.12px;
+  height: 226.52px;
+  left: 75px;
+  top: 358px;
+
+  background: url(images/Macbook\ Pro.png);
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 30px 0px;
+  
+  
+
+ 
+}
+
+/* righy------------------------------------------ */
+.contents-bottom-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 40px 0px; */
+
+  position: static;
+  width: 476px;
+  height: 620px;
+  left: 509px;
+  top: 2.26px;
+
+  /* light background */
+
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  /* shadow */
+
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 33px;
+}
+.contents-bottom-right-up {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 288px;
+  height: 152px;
+  left: 94px;
+  top: 40px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 30px 0px; */
+}
+#contents-bottom-right-up-heading {
+  position: static;
+  left: 14.29%;
+  right: 14.29%;
+  top: 20%;
+  bottom: 20%;
+
+  /* Title */
+
+  font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  /* first text */
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 10px; */
+  margin-top: 2px;
+  margin-bottom: 20px;
+  /* position: static;
+  left: 4.5%;
+  right: 4.5%;
+  top: 20%;
+  bottom: 20%; */
+
+  /* Title */
+
+  /* font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px; */
+  /* identical to box height, or 150% */
+
+  /* text-align: center;
+  letter-spacing: 0.1px; */
+
+  /* first text */
+
+  /* color: #000000; */
+
+  /* Inside Auto Layout */
+
+  /* flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px; */
+}
+#contents-bottom-right-up-para {
+  /* position: static;
+  left: 3.47%;
+  right: 3.47%;
+  top: 10.87%;
+  bottom: 10.87%; */
+
+  /* Paragraphe */
+
+  font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* second text */
+
+  color: #5c5c5c;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+#contents-bottom-right-mid-btn {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  align-items: center;
+  padding: 20px 36px;
+
+  position: static;
+  width: 190px;
+  height: 52px;
+  left: 143px;
+  top: 222px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+
+  /* primary */
+
+  background: #4452fe;
+  /* shadow */
+
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 29px 0px;
+}
+.contents-bottom-right-down {
+  position: static;
+  width: 379px;
+  height: 276px;
+  left: 48.5px;
+  top: 304px;
+
+  background: url(images/Boards\ Notifications.png);
+  /* shadow */
+/* 
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  border-radius: 14px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 30px 0px; 
+}
+
+
   /* <!-- partners-section------------------------ --> */
 
   .partners-section{
@@ -656,6 +1472,9 @@ font-family: 'Ubuntu', sans-serif;
     flex: none;
     order: 0;
     flex-grow: 0;
+
+
+    
   }
   #gallery-title {
     position: static;
@@ -775,7 +1594,7 @@ font-family: 'Ubuntu', sans-serif;
   
     /* light text */
   
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
   
@@ -787,39 +1606,55 @@ font-family: 'Ubuntu', sans-serif;
     margin: 44px 0px;
   }
   #gallery-btn {
-    position: static;
-    left: 10.1%;
-    right: 10.1%;
-    top: 22.22%;
-    bottom: 22.22%;
-  
-    /* Button */
-  
-    font-family: Graphik;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 25px;
-    /* identical to box height, or 147% */
-  
-    letter-spacing: 0.2px;
-  
-    /* light text */
-  
-    color: #ffffff;
-  
-    /* Inside Auto Layout */
-  
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+   /* button */
+outline: none;
+line-height: 3.6rem;
+text-transform: capitalize;
+background: none;
+cursor: pointer;
+font-style: normal;
+font-weight: normal;
+font-size: 2rem;
+border-color: white;
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 30px;
+
+
+/* light text */
+
+border: 1px solid #ffffff;
+box-sizing: border-box;
+/* shadow */
+
+filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+/* margin: 0px 35px; */
+font-style: normal;
+font-weight: normal;
+font-size: 2rem;
+    /* ******************************************************** */
+
+    
+
+    
+
   }
    /* testimonials-section------------------------------------------- */
    .testimonials-section{
     display: flex;
     justify-content:center;
     align-items: center;
+   
 
    }
    .testimonials {
@@ -848,6 +1683,7 @@ font-family: 'Ubuntu', sans-serif;
     order: 5;
     align-self: stretch;
     flex-grow: 0;
+    
   }
   #testimonials-title {
     /* Testimonials */
@@ -860,7 +1696,8 @@ font-family: 'Ubuntu', sans-serif;
   
     /* Second Headline */
   
-    font-family: Graphik;
+    font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 52px;
@@ -957,7 +1794,9 @@ font-family: 'Ubuntu', sans-serif;
       display: flex;
       justify-content:center;
       align-items: center;
-      margin-bottom: 500px;
+      /* margin-bottom: 500px; */
+      margin-top: 200rem;
+      
   }
   .last {
     /* dark CTA 8 */
@@ -966,18 +1805,20 @@ font-family: 'Ubuntu', sans-serif;
     width: 100vw;
   
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
   
-    position: static;
+    /* position: static;
     width: 1579px;
     height: 566px;
     left: 0px;
-    top: 6723.07px;
+    top: 6723.07px; */
   
     /* dark background */
   
     background: #181818;
+    /* background: chartreuse; */
   
     /* Inside Auto Layout */
   
@@ -985,6 +1826,8 @@ font-family: 'Ubuntu', sans-serif;
     order: 6;
     align-self: stretch;
     flex-grow: 0;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
   }
   .last-small {
     /* content */
@@ -1100,23 +1943,34 @@ font-family: 'Ubuntu', sans-serif;
     margin: 0px 86px; */
   }
   #last-text {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 0px;
-  
     position: static;
-    width: 160px;
-    height: 45px;
-    left: 36px;
-    top: 3.5px;
-  
-    /* Inside Auto Layout */
-  
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 0px;
+    width: 499px;
+    height: 124px;
+    left: 94px;
+    top: 17px;
+
+/* Second Headline */
+
+font-family: Graphik;
+font-style: normal;
+font-weight: normal;
+font-size: 52px;
+line-height: 62px;
+/* or 119% */
+
+letter-spacing: 0.2px;
+
+/* light text */
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
   }
   .last-btn {
     /* button */
@@ -1156,11 +2010,16 @@ font-family: 'Ubuntu', sans-serif;
     /* button */
   
     /* Auto Layout */
+    border:none;
   
     display: flex;
+    justify-content: center;
     flex-direction: row;
+    font-weight: bolder;
     align-items: center;
     padding: 20px 36px;
+    color: #181818;
+    font-size: 2rem;
   
     position: static;
     width: 232px;
@@ -1182,11 +2041,235 @@ font-family: 'Ubuntu', sans-serif;
     flex-grow: 0;
     margin: 37px 0px;
   }
-  /* <!-- footer--------------------------------------------------------------------------- --> */
- #footer-section{
+ 
 
-     display: flex;
-     justify-content: center;
-     align-items: center;
+/* <!-- footer--------------------------------------------------------------------------- --> */
+.footer-section {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+  /* padding: 107px 0px; */
 
- }
+  /* position: static; */
+  /* width: 1579px;
+  height: 437px; */
+  /* left: 0px;
+  top: 7353.07px; */
+
+  /* dark background */
+
+  background: #181818;
+
+  /* Inside Auto Layout */
+
+  /* flex: none;
+  order: 7;
+  align-self: stretch;
+  flex-grow: 0; */
+  /* margin: 100px 0px; */
+}
+.footer-div {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+
+  /* background: pink; */
+
+  position: static;
+  /* width: 100%; */
+  /* height: 150px; */
+  /* left: 274px;
+  top: 107px; */
+  height: 25vh;
+  width: 70vw;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 0px; */
+  /* margin-left: 5%;
+  margin-right: 5%; */
+}
+.footer-left {
+  /* background: powderblue; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 0px; */
+
+  /* position: static;
+  width: 513px;
+  height: 223px;
+  left: 0px;
+  top: 0px; */
+
+  /* Inside Auto Layout */
+
+  /* flex: none;
+  order: 0;
+  flex-grow: 0; */
+  /* margin: 0px 199px; */
+  margin-right: 8rem;
+  /* background: powderblue; */
+}
+#footer-table-left {
+  width: 400px;
+  color: white;
+  /* padding-top: 100px;
+  padding-left: 100px; */
+}
+footer.th {
+  text-align: left;
+  /* padding-bottom: 10px; */
+  color: white;
+}
+table {
+  width: 400px;
+  color: white;
+  
+}
+
+th {
+  text-align: left;
+  padding-bottom: 10px;
+  color: white;
+}
+.footer-right {
+  justify-content: center;
+  align-content: center;
+  
+  margin-left: 7rem;
+}
+* .footer-location {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 75.91%;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 10px 0px; */
+}
+#footer-location-img {
+  position: static;
+  width: 46px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.footer-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 15px; */
+
+  position: static;
+  left: 0%;
+  right: 44.83%;
+  top: 29.32%;
+  bottom: 47.64%;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#footer-mb-img {
+  position: static;
+  width: 35px;
+  height: 35px;
+  left: 0px;
+  top: 4.5px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 20px 0px; */
+
+  position: static;
+  width: 170.96px;
+  height: 80.99px;
+  /* left: 0px;
+  top: 110px; */
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  /* margin: 10px 0px; */
+}
+#footer-twitter {
+  position: static;
+  width: 40.99px;
+  height: 40.99px;
+  left: 0px;
+  top: 20px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 24px; */
+}
+#footer-fb {
+  position: static;
+  width: 40.99px;
+  height: 40.99px;
+  left: 64.99px;
+  top: 20px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  /* margin: 0px 24px; */
+}
+#footer-linkdin {
+  position: static;
+  width: 40.99px;
+  height: 40.99px;
+  left: 129.97px;
+  top: 20px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  /* margin: 0px 24px; */
+}
